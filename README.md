@@ -1,82 +1,44 @@
-# Project: Investigate_Dataset_-__TMDB_5000_Movie
+# Project: Investigate a Dataset - TMDB 5000 Movie
 
 ## Table of Contents
-
 1. [Introduction](#introduction)
-
-2. [Data Gathering](#Data_Gathering)
-
-3. [Data Assessment](#Data_Assessment)
-
-Data Cleaning
-
-Analysis
-
-Data Storing
-
-Project Reflection
+2. [Data Wrangling](#data_wrangling)
+3. [Exploratory Data Analysis](#exploratory_data_analysis)
+4. [Conclusions](#conclusions)
 
 <a name="introduction"></a>
-
-<a name="introduction"></a>
-
 ## Introduction
 
-This project investigates whether certain car makes and models are more likely to be involved in traffic violations and crashes. We analyze data from two datasets: one focusing on traffic violations and the other on crash reports. By comparing vehicle characteristics across these datasets, we aim to identify any trends that could help improve road safety measures.
+**Dataset Description**
 
-<a name="data-gathering"></a>
+This project investigates a dataset consisting of 10,000 movies sourced from The Movie Database (TMDb). The aim is to understand the dynamics of the film industry, including factors influencing movie success and the impact of inflation on financial outcomes.
 
-##Data Gathering
+**Question(s) for Analysis**
 
-We extract data using two different methods:
+- What is the relationship between the average budget and revenue for the top-performing movie genres?
+- How have film budgets changed on average every five years?
+- What are the top-performing directors in terms of total revenue, among those who have directed at least 10 movies?
 
-Programmatically downloading the 'Crash_Reporting_-_Drivers_Data' file.
+<a name="data_wrangling"></a>
+## Data Wrangling
 
-Manually downloading the 'Traffic_Violations' file.
+The first step in the analysis is to load and examine the dataset. We'll check for missing values and duplicate rows, examine data types, and identify potential instances of missing or erroneous data.
 
-Datasets
+<a name="exploratory_data_analysis"></a>
+## Exploratory Data Analysis
 
-Crash_Reporting_-_Drivers_Data
+This section will cover the data analysis process where we'll compute statistics and create visualizations with the goal of addressing the research questions posed in the Introduction section.
 
-The data is programmatically downloaded from the official source using a custom function designed to fetch the dataset from a given URL. This ensures the latest and most accurate information is obtained for analysis.
+<a name="conclusions"></a>
+## Conclusions
 
-Variables:
+In this final section, we'll provide a summary and the conclusions of the data analysis.
 
-Vehicle Make: Represents the manufacturer or brand of the vehicle involved in the crash.
+## How to Run the Code
 
-Vehicle Model: Refers to the specific model of the vehicle.
+The analysis was performed using Python and various libraries including pandas, matplotlib, seaborn, and scipy. To run the code, you will need to have these libraries installed. 
 
-Vehicle Year: Indicates the manufacturing year of the vehicle.
-
-Collision Type: Specifies the type of collision that occurred in the crash.
-
-Driver At Fault: Indicates whether the driver was at fault in the crash.
-
-Traffic_Violations
-
-The data is downloaded manually from the official source website: ********
-
-Variables:
-
-Violation Type: Specifies the type of traffic violation committed.
-
-Make: Represents the manufacturer or brand of the vehicle involved.
-
-Model: Refers to the specific model of the vehicle.
-
-Year: Indicates the manufacturing year of the vehicle.
-
-<a name="data-assessment"></a>
-
-Data Assessment
-
-We assess the data according to data quality and tidiness metrics. We list two data quality issues and two tidiness issues. We assess each data issue visually and programmatically, then briefly describe the issue we find. We include justifications for the methods we use for the assessment.
-
-<a name="data-cleaning"></a>
-
-Data Cleaning
-
-We clean the data to solve the 4 issues corresponding to data quality and tidiness found in the assessing step. After the cleaning for each issue, we use either the visually or programmatical method to validate the cleaning was successful. At this stage, we also remove variables that are unnecessary for our analysis and combine our datasets.
+You can run the code in a Python environment, such as Jupyter Notebook. Simply import the Python file and run the functions to perform the analysis and generate the visualizations.
 
 <a name="analysis"></a>
 
