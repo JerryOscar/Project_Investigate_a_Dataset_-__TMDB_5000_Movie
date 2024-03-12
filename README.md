@@ -39,5 +39,3 @@ In this final section, we'll provide a summary and the conclusions of the data a
 The analysis was performed using Python and various libraries including pandas, matplotlib, seaborn, and scipy. To run the code, you will need to have these libraries installed. 
 
 You can run the code in a Python environment, such as Jupyter Notebook. Simply import the Python file and run the functions to perform the analysis and generate the visualizations.
-
-For any further questions, please refer to the support page at [Ask AT&T](https://data.att.com/products-and-services/self-service/askAT-and-T).
