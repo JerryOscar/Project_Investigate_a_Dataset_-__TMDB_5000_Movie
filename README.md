@@ -1,7 +1,3 @@
-Something like this but fix the table of content
-
-"# Project: Real World Data Wrangling
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
