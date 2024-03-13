@@ -5,6 +5,9 @@
 2. [Data Wrangling](#data_wrangling)
 3. [Exploratory Data Analysis](#exploratory_data_analysis)
 4. [Conclusions](#conclusions)
+5. [Analysis](#analysis)
+6. [Data Storing](#data-storing)
+7. [Project Reflection](#project-reflection)
 
 <a name="introduction"></a>
 ## Introduction
@@ -34,28 +37,18 @@ This section will cover the data analysis process where we'll compute statistics
 
 In this final section, we'll provide a summary and the conclusions of the data analysis.
 
-## How to Run the Code
-
-The analysis was performed using Python and various libraries including pandas, matplotlib, seaborn, and scipy. To run the code, you will need to have these libraries installed. 
-
-You can run the code in a Python environment, such as Jupyter Notebook. Simply import the Python file and run the functions to perform the analysis and generate the visualizations.
-
 <a name="analysis"></a>
-
-Analysis
+## Analysis
 
 We use the cleaned data to answer our research question. We produce at least two visualizations using the cleaned data and explain how they help us answer the question.
 
 <a name="data-storing"></a>
-
-Data Storing
+## Data Storing
 
 We update our local database/data store with the cleaned data, following best practices for storing our cleaned data:
 
-We maintain different instances/versions of data (raw and cleaned data).
-
-We name the dataset files informatively.
-
-We ensure both the raw and cleaned data is saved to our database/data store.
+- We maintain different instances/versions of data (raw and cleaned data).
+- We name the dataset files informatively.
+- We ensure both the raw and cleaned data are saved to our database/data store.
 
 <a name="project-reflection"></a>
