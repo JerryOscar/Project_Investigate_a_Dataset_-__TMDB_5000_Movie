@@ -7,7 +7,6 @@
 4. [Conclusions](#conclusions)
 5. [Analysis](#analysis)
 6. [Data Storing](#data-storing)
-7. [Project Reflection](#project-reflection)
 
 <a name="introduction"></a>
 ## Introduction
